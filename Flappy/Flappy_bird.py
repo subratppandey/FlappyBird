@@ -4,7 +4,7 @@ import time
 import os
 import random
 
-WIDTH = 500, HEIGHT = 800
+WIDTH, HEIGHT = 500, 800
 
 
 BIRD_IMG = [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","bird1.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","bird2.png"))),pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","bird3.png")))]
